@@ -155,7 +155,7 @@ if __name__ == '__main__':
 
     ############################
     # conv layers
-    size_list = [(32, 32), (18, 18), (10, 10), (6, 6), (4, 4)]
+    size_list = [(32, 32), (28, 28), (10, 10), (6, 6), (4, 4)]
     num_list = [3, 32, 32, 48, 48]
     x_diff_list = [0, layer_width, layer_width, layer_width, layer_width]
     text_list = ['Inputs'] + ['Feature\nmaps'] * (len(size_list) - 1)
